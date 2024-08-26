@@ -1,0 +1,165 @@
+/* universial style  */
+
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: "Open Sans", sans-serif;
+}
+
+/* header style  */
+header{
+    background-color: #fceef1;
+    
+    /* padding: ; */
+    
+
+}
+.header-container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.banner-img{
+    width: 500px;
+}
+.banner-title{
+  font-size: 60px;
+
+}
+.banner-description{
+   font-size: 18px;
+   margin-top: 30px;
+}
+.btn-primary{
+    margin-top: 30px;
+   font-size: 18px;
+   padding: 15px 30px;
+   background-color: #e55473;
+   color: white;
+   border: none;
+   border-radius: 5px;
+
+}
+
+             /* Our Feature Section Style  */
+
+.section-description{
+  font-size: 18px;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-around;
+
+    width: 1140px;
+    margin: auto;
+    padding: 100px 0px;
+}
+.feature-container p{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.feature-img{
+    width: 250px;
+}
+
+.img-div{
+    height: 400px;
+    width: 320px;
+    padding: 50px 0px 0px 50px;
+    border-radius: 50% 50% 0px 0px;
+    background-color: #fceef1;
+    /* text-align: center; */
+}
+/* .a-center{
+    text-align: center;
+} */
+.feature-a{
+    color: black;
+    font-weight: 600;
+    /* text-align: center; */
+
+}
+.img-div-2{
+    background-color: #d9eff1;
+}
+.div-img-3{
+    background-color: #e3ebdb;
+}
+
+/* ------------------ section -2  */
+
+.section-2{
+    width: 1140px;
+    margin: auto;
+    background-color: #f4f4f4;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.section2-img{
+    width: 70px;
+}
+.section-2 div{
+    text-align: center;
+}
+
+/* section 3 Hot deal style  */
+
+.section3{
+    display: flex;
+    background-color: #fef6f8;
+    padding: 50px 0px;
+    margin: 100px 0px;
+
+}
+.s3display{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.section-title{
+ text-align: center;
+ font-size: 40px ;
+ padding-top: 50px;
+
+}
+.section3 div{
+    text-align: center;
+}
+
+/* section 4 instagram style  */
+
+.section4-imgcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    width: 1140px;
+    margin: auto;
+    padding-bottom: 100px;
+
+}
+.section4 img{
+    width: 280px;
+}
+.section4 p{
+    padding-bottom: 50px;
+}
+/* Form Section 5  */
+.section5{
+
+    background-image: url('./Flower/Asset/');
+}
+
+
+
