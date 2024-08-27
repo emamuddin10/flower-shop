@@ -142,9 +142,10 @@ header{
 
 .section4-imgcontainer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     gap: 15px;
-    width: 1140px;
+    width: 1160px;
     margin: auto;
     padding-bottom: 100px;
 
@@ -158,8 +159,29 @@ header{
 /* Form Section 5  */
 .section5{
 
-    background-image: url('./Flower/Asset/');
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 40vh; */
+    width: 1160px;
+    margin: auto;
+    /* padding: 100px; */
+
 }
+.center-section5{
+    text-align: center;
+    line-height: 50px;
+    padding-bottom:80px;
+}
+.section5 input[type=email] {
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  /* .section5 input[type=email] */
 
 
 
