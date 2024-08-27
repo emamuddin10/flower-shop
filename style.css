@@ -184,4 +184,29 @@ header{
   /* .section5 input[type=email] */
 
 
+  /* foote section  */
+
+  footer{
+    background-color: black;
+    margin-top: 80px;
+    padding: 70px 0px;
+  }
+  footer h3{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+
+  }
+  footer p{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .text-span{
+    font-size: 40px;
+    color: crimson;
+  }
+
+
 
